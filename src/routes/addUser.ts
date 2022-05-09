@@ -10,8 +10,7 @@ export default function addUser(request: Request, response: Response) {
         .then((result: any) => {
             response.send(result)
             console.log(`Successfully added a new User with ID: ${result._id}`)
-        })
-        .catch((err: any) => {
+        }).catch((err: any) => {
             console.log(err)
         });
 }
