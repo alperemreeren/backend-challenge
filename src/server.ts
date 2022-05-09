@@ -23,7 +23,7 @@ mongoose.connect(dbURI)
     .catch((err) => console.log(err));
 
 // Endpoints
-app.get('/fetchAllUsers', fetchAllUsers);
+app.get('/fetch-users', fetchAllUsers);
 app.get('/add-user', addUser)
 
 // Initialize Server
