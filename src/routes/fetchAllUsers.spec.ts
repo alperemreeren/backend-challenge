@@ -22,15 +22,12 @@ describe('Fetch all users request', () => {
             users: [
                 {
                     name: 'Stefano',
-                    age: ~25-30
                 },
                 {
                     name: 'Alper',
-                    age: 17
                 },
                 {
                     name: 'Joe',
-                    age: 20
                 }
             ]
         };
